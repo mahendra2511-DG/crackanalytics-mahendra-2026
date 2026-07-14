@@ -270,3 +270,6 @@ body.course{margin:0}
 .gh-btn:hover{background:var(--teal)}
 .chip.gh{background:var(--ink);color:#fff;border-color:var(--ink)}
 .tool-list li{margin-bottom:9px;font-size:14.5px;line-height:1.55}
+
+/* --- answer images --- */
+.qa-img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;margin:10px 0;display:block;background:#fff}
