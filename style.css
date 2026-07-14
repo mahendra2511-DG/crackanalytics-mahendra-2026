@@ -219,7 +219,7 @@ body.course{margin:0}
 .sb-foot a:hover{color:#fff}
 
 /* --- content --- */
-#content{margin-left:300px;flex:1;padding:34px 44px 60px;max-width:1020px}
+#content{margin-left:300px;flex:1;padding:34px 44px 60px}
 .lesson{display:none;animation:fadein .25s ease}
 .lesson.active{display:block}
 .l-crumb{font-size:12.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);margin-bottom:10px}
@@ -251,3 +251,22 @@ body.course{margin:0}
 .sb-brand{display:flex;align-items:center;gap:12px}
 .sb-avatar{width:46px;height:46px;border-radius:50%;object-fit:cover;border:2px solid #17B097}
 .rail-avatar{width:74px;height:74px;border-radius:50%;object-fit:cover;border:3px solid var(--teal);display:block;margin:0 auto 10px}
+
+/* --- centered lessons (fix right-side gap) --- */
+.lesson{max-width:1010px;margin-left:auto;margin-right:auto}
+.course-foot{max-width:1010px;margin-left:auto;margin-right:auto}
+.lesson .wrap{max-width:100%}
+
+/* --- resume section --- */
+.resume-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:6px 0 10px}
+.rcard{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:16px 18px}
+.rcard h4{font-family:var(--font-head);font-size:16px;margin:0 0 8px}
+.rcard ul{margin:0;padding-left:18px}
+.rcard li{font-size:14px;line-height:1.55;margin-bottom:5px}
+.resume-sample{display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:20px}
+.resume-img{width:280px;max-width:100%;border:1px solid var(--line);border-radius:8px;box-shadow:0 10px 30px rgba(16,24,32,.12)}
+.resume-sample>div{flex:1;min-width:250px}
+.gh-btn{display:inline-block;background:var(--ink);color:#fff;font-weight:600;font-size:14.5px;padding:12px 20px;border-radius:10px;text-decoration:none;margin-top:6px}
+.gh-btn:hover{background:var(--teal)}
+.chip.gh{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tool-list li{margin-bottom:9px;font-size:14.5px;line-height:1.55}
